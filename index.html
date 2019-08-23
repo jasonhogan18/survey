@@ -6,6 +6,7 @@
         <link rel="shortcut icon" href="favicon.ico" />
         <title>HCM Survey</title>
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/reset.css">
     </head>
     
     <header>
@@ -15,7 +16,7 @@
             <img class="logo" src=images/logo-noback.png alt="Health Complex Medical Logo">
         </div>
         
-        <div class="company name">
+        <div class="company-name">
             <h1>HEALTH COMPLEX MEDICAL SURVEY</h1>
         </div>
         
@@ -30,26 +31,32 @@
         
         <div class="buttons">
             <div id="first-button">
-                <h2 id="name">Patient</h2>
+                <h2><a id="name" href="patient.html">PATIENT</a></h2>
+                <a href="patient.html"><img class="patient" src="images/patient.PNG" alt="Patient"></a>
             </div>
 
             <div id="second-button">
-                <h2 id="name">Caregiver</h2>
+                <h2><a id ="name" href="caregiver.html">CAREGIVER</a></h2>
+                <a href="caregiver.html"><img class="caregiver" src="images/caregiver.jpg" alt="Caregiver"></a>
             </div>
 
             <div id="third-button">
-                <h2 id="name">Referral Source</h2>
+                <h2><a id="name" href="referral-source.html">REFERRAL SOURCE</a></h2>
+                <a href="referral-source.html"><img class="referral" src="images/referral.jpg" alt="Referral Source"></a>
             </div>
         </div>
         
         <div class="content">
             <p>Thank you for visiting the Health Complex Medical Survey Center. We appreciate you taking time to complete a short survey. We value your comments as we strive to continue to improve our services.
             <br>
+            <br>
             Please click your respective button above. You will then be taken to a short survey to complete. When you have completed the survey please click the Submit button which will send the survey directly to our management team.
+            <br>
             <br>
             Your comments are very important to us. Thank you again for your time and willingness to share your comments and suggestions.
             <br>
-            Health Complex Medical</p>
+            <br>
+            <strong id="bold">Health Complex Medical</strong></p>
         </div>
         
     </body>
@@ -60,14 +67,18 @@
         
         <img class="slogan" src="images/slogan.PNG" alt="All Take Care Of">
         
-        <p id="information">Phone: 888.575.7778</p>
+        <!-- Check to make sure when you click, it prompts you to call -->
+        <p id="information"><strong id="contact-info">PHONE:</strong> <a id="phone" href="tel:+18885757778">888.575.7778</a></p>
         
         <!-- Should address link to google maps? -->
-        <p id="information">Address: 84 Progress Lane Waterbury, CT 06705</p>
+        <p id="information"><strong id="contact-info">ADDRESS:</strong> <a id="address" href="https://www.google.com/maps/dir//84+Progress+Lane,+84+Progress+Ln,+Waterbury,+CT+06705/@41.5369888,-72.9869038,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e7c6c25629b263:0xdfcc7f3a8725b842!2m2!1d-72.972081!2d41.5345579">84 Progress Lane Waterbury, CT 06705</a></p>
         
-        <!-- SHould website link not be underlined? -->
-        <p id="information">Website: <a href="http://www.healthcomplexmedical.com/">www.healthcomplexmedical.com</a></p>
+        <!-- Should website link not be underlined? -->
+        <p id="information"><strong id="contact-info">WEBSITE: </strong> <a id="website" href="http://www.healthcomplexmedical.com/">www.healthcomplexmedical.com</a></p>
     
+        <div id="copyright">
+            <p>&copy Copyright 2019 Health Complex Medical. All rights reserved</p>
+        </div>
     </footer>
 
 </html>
