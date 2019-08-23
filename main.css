@@ -1,7 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+    font-family: Calibri;
 }
 
 html {
@@ -9,23 +10,25 @@ html {
 }
 
 .logo {
-    width: 175px;
+    width: 200px;
     height: inherit;
     padding: 10px;
-    margin: 0;
+    margin: 0 4rem;
 }
 
-h1 {
+.company-name {
     display: flex;
     justify-content: center;
     text-align: center;
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.6rem;
     color: #006745;
-    font-family: Arial;
+    font-family: Calibri;
+    padding: 2%;
+    font-weight: bold;
 }
 
- /*
+/*
 hr {
     border: 2px solid black;
     margin: 0;
@@ -35,17 +38,12 @@ hr {
 header {
     background-color: #CFECDD; /* old color was rgba(245, 242, 242) */
     margin: 0;
-    height: 300px;
+    height: 220px;
 }
+
 
 body {
-    background-color: ; /* old color was same as header */
-}
-
-.content {
-    margin: 0 auto;
-    width: 50%;
-    text-align: center;
+    background-color: #ffffff; /* old color was same as header */
 }
 
 .buttons {
@@ -54,40 +52,162 @@ body {
 }
 
 #first-button, #second-button, #third-button {
-    border: 1px solid black;
+    border: 4px solid black;
     width: 30%;
     margin: 3% auto;
     display: inline;
     height: 300px;
     background-color: #000000;
     color: #ffffff;
+    border-radius: 10%; /* border-radius : 2rem = square */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Makes button green when hover
+#first-button:hover, #second-button:hover, #third-button:hover {
+    background-color: #006745;
+}
+*/
+
+.patient {
+    height: 100%;
+    width: 100%;
+    border-radius: 10%; /* border-radius : 2rem = square */
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.caregiver {
+    height: 100%;
+    width: 100%;
+    border-radius: 10%; /* border-radius : 2rem = square */
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.referral {
+    height: 100%;
+    width: 100%;
+    border-radius: 10%; /* border-radius : 2rem = square */
+    opacity: 0.2;
+    z-index: 1;
 }
 
 #name {
     position: absolute;
-    top: 45%;
-    bottom: 45%;
+    top: 42.5%;
+    bottom: 10%;
     text-align: center;
     width: 30%;
+    font-size: 2.5rem;
+    z-index: 2;
+    font-weight: bold;
+    font-family: Calibri;
+    text-decoration: none;
+}
+
+#name:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#name:hover {
+    color: #006745; /* Changes color of text to green when hover */
+}
+
+.content {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5;
+    border: 3px solid #006745;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-family: Calibri;
+}
+
+#bold {
+    color: #006745;
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 
 #footer-hr {
     margin-top: 3rem;
     margin-bottom: 0.75rem;
+    border: 1px solid #006745;
 }
 
 footer {
     margin: auto;
     width: 100%;
-    padding: 10px;
+    font-size: 90%;
+}
+
+#information {
+    width: 95%;
+    padding-left: 1%;
+    text-decoration: none;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+#contact-info {
+    color: #006745;
+    font-size: 1.2rem;
+    font-family: Calibri;
+}
+
+#phone {
+    text-decoration: none;
+    color: #000000;
+    font-family: Calibri;
+    font-size: 1.1rem;
+}
+
+#phone:hover {
+    color: #006745;
+}
+
+#address {
+    text-decoration: none;
+    color: #000000;
+    font-family: Calibri;
+    font-size: 1.1rem;
+}
+
+#address:hover {
+    color: #006745;
+}
+
+#website {
+    text-decoration: none;
+    color: #000000;
+    font-family: Calibri;
+    font-size: 1.1rem;
+}
+
+#website:hover {
+    color: #006745;
 }
 
 .slogan {
     width: 20%;
     float: right;
- 
 }
 
-#information {
-    width: 95%
+#copyright {
+    background-color: #006745;
+    padding: 2%;
+    width: 100%;
+    margin: 3% 0 0 0;
+}
+
+#copyright p {
+    color: #ffffff;
+    font-size: 70%;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
 }
