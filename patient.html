@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- Add a Title Image -->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <title>HCM Patient Survey</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <header>
+    
+        <!-- Do I want a header? -->
+        <div>
+            <a href="index.html"><img class="logo" src=images/logo-noback.png alt="Health Complex Medical Logo"></a>
+        </div>
+        
+        <div class="company-name">
+            <h1>HEALTH COMPLEX MEDICAL PATIENT SURVEY</h1>
+        </div>
+        
+    </header>
+    
+    <body>
+        
+        <form>
+            <input id="back-button" type="button" value="Back" onclick="history.back()">
+        </form>
+        
+        <section id="form">
+        
+            <div id="wrapper">
+            
+                <h2 id="patient-header">Patient Feedback Form</h2>
+                
+                <!-- Make margin 1% and font Calibri -->
+                <p id="thank-you">Your feedback is very important to us and we appreciate you taking the time to complete the survey below!</p>
+                
+                <!-- Before only said <form id=""> -->
+                <form id="patient-form" action="/form.html" method="POST">
+                
+                    <!-- Question 1 -->
+                    <h3 id="question-text">1. How likely are you to recommend Health Complex Medical to a family member or friend?</h3>
+                
+                    <div id="btn-group">
+                        <label><input type="button" name="q1" value="1"></label>
+                        <label><input type="button" name="q1" value="2"></label>
+                        <label><input type="button" name="q1" value="3"></label>
+                        <label><input type="button" name="q1" value="4"></label>
+                        <label><input type="button" name="q1" value="5"></label>
+                        <label><input type="button" name="q1" value="6"></label>
+                        <label><input type="button" name="q1" value="7"></label>
+                        <label><input type="button" name="q1" value="8"></label>
+                        <label><input type="button" name="q1" value="9"></label>
+                        <label><input type="button" name="q1" value="10"></label>
+                    </div>
+                    
+                    <!--Question 2 -->
+                    <h3 id="question-text">2. How well does our service meet your needs?</h3>
+                    
+                    <label><input id="radio" type="radio" name="q2" value="c1">Extremely Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c2">Very Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c3">Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c4">Not so Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c5">Not at all Well</label>
+                    
+                    <!--Question 3 -->
+                    <h3 id="question-text">3. How well does our service meet your needs?</h3>
+                    
+                    <label><input id="radio" type="radio" name="q2" value="c1">Extremely Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c2">Very Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c3">Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c4">Not so Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c5">Not at all Well</label>
+                    
+                     <!--Question 4 -->
+                    <h3 id="question-text">4. How well does our service meet your needs?</h3>
+                    
+                    <label><input id="radio" type="radio" name="q2" value="c1">Extremely Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c2">Very Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c3">Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c4">Not so Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c5">Not at all Well</label>
+                    
+                     <!--Question 5 -->
+                    <h3 id="question-text">5. How well does our service meet your needs?</h3>
+                    
+                    <label><input id="radio" type="radio" name="q2" value="c1">Extremely Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c2">Very Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c3">Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c4">Not so Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c5">Not at all Well</label>
+                    
+                     <!--Question 6 -->
+                    <h3 id="question-text">6. How well does our service meet your needs?</h3>
+                    
+                    <label><input id="radio" type="radio" name="q2" value="c1">Extremely Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c2">Very Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c3">Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c4">Not so Well</label>
+                    <label><input id="radio" type="radio" name="q2" value="c5">Not at all Well</label>
+                    
+                </form>
+            
+            </div>
+            
+        </section>
+    
+    </body>
+    
+     <hr id="footer-hr">
+    
+    <footer>
+        
+        <img class="slogan" src="images/slogan.PNG" alt="All Take Care Of">
+        
+        <!-- Check to make sure when you click, it prompts you to call -->
+        <p id="information"><strong id="contact-info">PHONE:</strong> <a id="phone" href="tel:+18885757778">888.575.7778</a></p>
+        
+        <!-- Should address link to google maps? -->
+        <p id="information"><strong id="contact-info">ADDRESS:</strong> <a id="address" href="https://www.google.com/maps/dir//84+Progress+Lane,+84+Progress+Ln,+Waterbury,+CT+06705/@41.5369888,-72.9869038,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e7c6c25629b263:0xdfcc7f3a8725b842!2m2!1d-72.972081!2d41.5345579">84 Progress Lane Waterbury, CT 06705</a></p>
+        
+        <!-- Should website link not be underlined? -->
+        <p id="information"><strong id="contact-info">WEBSITE: </strong> <a id="website" href="http://www.healthcomplexmedical.com/">www.healthcomplexmedical.com</a></p>
+    
+        <div id="copyright">
+            <p>&copy Copyright 2019 Health Complex Medical. All rights reserved</p>
+        </div>
+    </footer>
+
+</html>
