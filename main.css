@@ -1,8 +1,10 @@
+/* Homepage */
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Calibri;
+    font-family: Arial;
 }
 
 html {
@@ -23,7 +25,7 @@ html {
     margin: 0;
     font-size: 2.6rem;
     color: #006745;
-    font-family: Calibri;
+    font-family: Arial;
     padding: 2%;
     font-weight: bold;
 }
@@ -49,6 +51,7 @@ body {
 .buttons {
     display: flex;
     position: relative;
+  
 }
 
 #first-button, #second-button, #third-button {
@@ -96,14 +99,14 @@ body {
 
 #name {
     position: absolute;
-    top: 42.5%;
+    top: 44%;
     bottom: 10%;
     text-align: center;
     width: 30%;
-    font-size: 2.5rem;
+    font-size: 2rem;
     z-index: 2;
     font-weight: bold;
-    font-family: Calibri;
+    font-family: Arial;
     text-decoration: none;
 }
 
@@ -124,7 +127,7 @@ body {
     border: 3px solid #006745;
     padding: 1rem;
     font-size: 1.1rem;
-    font-family: Calibri;
+    font-family: Calibri, Arial;
 }
 
 #bold {
@@ -156,13 +159,13 @@ footer {
 #contact-info {
     color: #006745;
     font-size: 1.2rem;
-    font-family: Calibri;
+    font-family: Calibri, Arial;
 }
 
 #phone {
     text-decoration: none;
-    color: #000000;
-    font-family: Calibri;
+    color: #999999;
+    font-family: Calibri, Arial;
     font-size: 1.1rem;
 }
 
@@ -172,8 +175,8 @@ footer {
 
 #address {
     text-decoration: none;
-    color: #000000;
-    font-family: Calibri;
+    color: #999999;
+    font-family: Calibri, Arial;
     font-size: 1.1rem;
 }
 
@@ -183,8 +186,8 @@ footer {
 
 #website {
     text-decoration: none;
-    color: #000000;
-    font-family: Calibri;
+    color: #999999;
+    font-family: Calibri, Arial;
     font-size: 1.1rem;
 }
 
@@ -211,3 +214,118 @@ footer {
     margin: 0 auto;
     width: 100%;
 }
+
+/* Patient Page */
+
+#back-button {
+    background-color: #ffffff;
+    border: 1px solid #006745;
+    color: #006745;
+    padding: 0.5% 2.5%;
+    margin: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+#back-button:hover {
+    background-color: #006745;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#form {
+    font-family: Calibri, Arial;
+    font-size: 1.2rem;
+}
+
+#patient-header {
+    font-size: 1.75rem;
+    font-size: 1.75rem;
+    margin: 1%;
+    font-family: Calibri, Arial;
+}
+
+#thank-you {
+    font-family: Calibri, Arial;
+    margin: 1%;
+    margin-bottom: 3%;
+}
+
+#patient-form {
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid #006745;
+    width: 80%;
+}
+
+#question-text {
+    font-family: Calibri, Arial;
+    margin-top: 4%;
+    margin-bottom: 1.5%;
+    font-weight: bold;
+}
+
+#btn-group {
+    margin: 1%;
+}
+
+#btn-group label input {
+    background-color: #ffffff;
+    color: #006745;
+    border: 1px solid #006745;
+    text-align: center;
+    padding: 0.5% 1%;
+    margin: 0.1%;
+    border-radius: 50%;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+#btn-group input:hover, #btn-group input:active, #btn-group input:focus {
+    background-color: #006745;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#radio {
+    margin: 1%;
+}
+
+/* Caregiver Page */
+
+#caregiver-header {
+    font-size: 1.75rem;
+    font-size: 1.75rem;
+    margin: 1%;
+    font-family: Calibri, Arial;
+}
+
+#caregiver-form {
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid #006745;
+    width: 80%;
+}
+
+/* Referral Source Page */
+
+#referral-header {
+    font-size: 1.75rem;
+    font-size: 1.75rem;
+    margin: 1%;
+    font-family: Calibri, Arial;
+}
+
+#referral-form {
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid #006745;
+    width: 80%;
+}
+
+
+/* Test area  */
+
