@@ -15,7 +15,7 @@ html {
     width: 200px;
     height: inherit;
     padding: 10px;
-    margin: 0 4rem;
+    margin: 0 4%;
 }
 
 .company-name {
@@ -222,7 +222,7 @@ footer {
     border: 1px solid #006745;
     color: #006745;
     padding: 0.5% 2.5%;
-    margin: 1%;
+    margin: 1% 5%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -249,8 +249,8 @@ footer {
 
 #thank-you {
     font-family: Calibri, Arial;
-    margin: 1%;
-    margin-bottom: 3%;
+    margin: 2% auto;
+    text-align: center;
 }
 
 #patient-form {
@@ -299,7 +299,8 @@ footer {
 #caregiver-header {
     font-size: 1.75rem;
     font-size: 1.75rem;
-    margin: 1%;
+    margin: 0 auto;
+    text-align: center;
     font-family: Calibri, Arial;
 }
 
@@ -308,6 +309,67 @@ footer {
     text-align: center;
     border: 3px solid #006745;
     width: 80%;
+    font-family: Calibri, Arial;
+}
+
+#form-title {
+    font-size: 1.35rem;
+    font-family: Calibri, Arial;
+    padding-top: 2%;
+}
+
+#patientinfo {
+    font-weight: bold;
+}
+
+#patientinfo, label {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2%;
+    font-size: 1.1rem;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    border: 2px solid #006745;
+    padding: 3px;
+}
+
+#patientname, #patientemail, #patientphone {
+    width: 30%;
+    margin: 1%;
+    font-family: Calibri, Arial;
+    font-size: 1.1rem;
+}
+
+#comment-box {
+    margin: 1%;
+    overflow: hidden;
+    width: 80%;
+}
+
+#form-hr {
+    border: 1.5px solid #006745;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+#form-questions {
+    margin: 0 auto;
+    width: 80%;
+    line-height: 1.6;
+    display: inline-block;
+    font-family: Calibri, Arial;
+    font-size: 1.1rem;
+}
+
+#form-questions, input {
+    margin: 2% 2%;
+}
+
+#form-answers {
+    font-weight: normal;
 }
 
 /* Referral Source Page */
