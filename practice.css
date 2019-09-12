@@ -1,0 +1,11 @@
+form {
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid #000000;
+}
+
+label {
+    display: inline-block;
+    width: 80%;
+    text-align: right;
+}
