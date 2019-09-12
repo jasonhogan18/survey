@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+html {
+    font-size: 18px;
+}
+
+.logo {
+    width: 200px;
+    height: inherit;
+    padding: 10px;
+    margin: 0 4%;
+}
+
+.company-name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.6rem;
+    color: #006745;
+    font-family: Arial;
+    padding: 3%;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+header {
+    background-color: #CFECDD; /* old color was rgba(245, 242, 242) */
+    margin: 0;
+    height: 220px;
+}
+
+
+body {
+    background-color: #ffffff;
+    margin: 2%;
+}
+
+#information {
+    border:3px solid #006745;
+    margin: 3% 5%;
+    padding: 10px;
+    width: 30%;
+}
+
+#information-header {
+    font-size: 1.8rem;
+    padding: 8px 2px;
+    font-weight: bold;
+}
+
+#answers {
+    border:3px solid #006745;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+}
+
+#answers-header {
+    font-size: 1.8rem;
+    padding: 8px 2px;
+    font-weight: bold;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+/* Footer*/
+
+#footer-hr {
+    margin-top: 3rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid #006745;
+}
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    font-size: 90%;
+    background-color: #CFECDD;
+}
+
+.slogan {
+    width: 20%;
+    float: right;
+}
