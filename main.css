@@ -22,12 +22,13 @@ html {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
     font-size: 2.6rem;
     color: #006745;
     font-family: Arial;
-    padding: 2%;
+    padding: 3%;
     font-weight: bold;
+    line-height: 1.2;
 }
 
 /*
@@ -40,7 +41,7 @@ hr {
 header {
     background-color: #CFECDD; /* old color was rgba(245, 242, 242) */
     margin: 0;
-    height: 220px;
+    height: 275px;
 }
 
 
@@ -341,6 +342,10 @@ input[type="text"], input[type="email"], input[type="tel"] {
     font-size: 1.1rem;
 }
 
+#patientname:focus, #patientemail:focus, #patientphone:focus {
+    background-color: #f2f2f2;
+}
+
 #comment-box {
     margin: 1%;
     overflow: hidden;
@@ -368,8 +373,12 @@ input[type="text"], input[type="email"], input[type="tel"] {
     margin: 2% 2%;
 }
 
-#form-answers {
+#form-answers, inputS {
     font-weight: normal;
+    /* display: inline-block;
+    margin: 0;
+    text-align: left;
+    width: 30%; This gets radio buttons in line with one another - must add breaks in html as well*/
 }
 
 /* Referral Source Page */
@@ -386,6 +395,37 @@ input[type="text"], input[type="email"], input[type="tel"] {
     text-align: center;
     border: 3px solid #006745;
     width: 80%;
+}
+
+#submit-button {
+    padding: 1.5% 4%;
+    background-color: #ffffff;
+    border: 2px solid #006745;
+    font-family: Calibri, Arial;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #006745;
+    color: #ffffff;
+}
+
+#final-thanks {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.15rem;
+    font-family: Calibri, Arial;
+    padding-top: 2%;
+}
+
+#thanks-phone {
+    text-decoration: none;
+    color: black;
+}
+
+#thanks-phone:hover {
+    color: #006745;
 }
 
 
